@@ -6,7 +6,21 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
-    printf("Desefio Super Trunfo!\n")
+    printf("Desefio Super Trunfo!\n");
+   
+    //LEITURA DOS ATRIBUTOS DAS CARTAS  -- estado, código da carta, nome da cidade, população, área, PIB e número de pontos turísticos
+    printf("Digite o que se pede:\n");
+    printf("Código da carta:\n");
+    printf("Estado:\n");
+    printf("Cidade:\n");
+    printf("População:\n");
+    printf("Área em M2:\n");
+    printf("PIB:\n");
+    printf("Quantidade de pontos turísticos:\n");
+
+
+
+
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
 
