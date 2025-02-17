@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 // Desafio Super Trunfo - Países
 // Tema 2 - Comparação das Cartas
@@ -6,14 +7,16 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
+    clrscr();
     printf("Desafio Super Trunfo!\n");
-    int codigo
-    char estado [30]
-    char cidade [30]
-    int populacao
-    int area
-    int pib
-    int p_tur
+    int codigo1=0, codigo2=0;
+    char estado1 [30], estado2 [30];
+    char cidade1 [30], cidade2 [30];
+    int populacao1=0, populacao2=0;
+    int area1=0, area2=0;
+    int pib1=0, pib2=0;
+    int p_tur1=0, p_tur2=0;
+
 
     //LEITURA DOS ATRIBUTOS DAS CARTAS  -- estado, código da carta, nome da cidade, população, área, PIB e número de pontos turísticos
     // Definição das variáveis para armazenar as propriedades das cidades
@@ -29,20 +32,35 @@ int main() {
     // (Repita para cada propriedade)
 
     printf("Digite o que se pede:\n");
-    printf("Código da carta:\n");
-        scanf("%i", &codigo);
+    printf("Código da carta1:\n");
+        scanf("%i", &codigo1);
     printf("Estado:\n");
-        scanf("%s", &estado);
+        scanf("%s", &estado1);
     printf("Cidade:\n");
-        scanf("%s", &cidade);
+        scanf("%s", &cidade1);
     printf("População:\n");
-        scanf("%i", &populacao);
+        scanf("%i", &populacao1);
     printf("Área em M2:\n");
-        scanf("%i", &area);
+        scanf("%i", &area1);
     printf("PIB:\n");
-        scanf("%i", &pib);
+        scanf("%i", &pib1);
     printf("Quantidade de pontos turísticos:\n");
-        scanf("%i", &p_tur);
+        scanf("%i", &p_tur1);
+    printf("Código da carta2:\n");
+        scanf("%i", &codigo2);
+    printf("Estado:\n");
+        scanf("%s", &estado2);
+    printf("Cidade:\n");
+        scanf("%s", &cidade2);
+    printf("População:\n");
+        scanf("%i", &populacao2);
+    printf("Área em M2:\n");
+        scanf("%i", &area2);
+    printf("PIB:\n");
+        scanf("%i", &pib2);
+    printf("Quantidade de pontos turísticos:\n");
+        scanf("%i", &p_tur2);
+
 
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
